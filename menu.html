@@ -4,47 +4,6 @@
   <meta charset="UTF-8">
   <title>Main Menu | Ali Akbar Gallery</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    .animated-header {
-      font-size: 3em;
-      font-weight: bold;
-      letter-spacing: 1px;
-      text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
-      color: #f5f5f5;
-      margin-bottom: 10px;
-      animation: fadeInDown 1.5s ease;
-    }
-
-    .gallery-section h2 {
-      font-size: 1.4em;
-      font-style: italic;
-      color: #ccc;
-      margin-bottom: 20px;
-      animation: fadeIn 2s ease;
-    }
-
-    @keyframes fadeInDown {
-      from {
-        opacity: 0;
-        transform: translateY(-40px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: scale(0.95);
-      }
-      to {
-        opacity: 1;
-        transform: scale(1);
-      }
-    }
-  </style>
 </head>
 <body class="menu-page">
   <header>
@@ -62,15 +21,13 @@
 
   <footer>
     <p>Made with heart by Ali Akbar</p>
+    <div class="music-player">
+      <p>Background Music:</p>
+      <audio controls loop>
+        <source src="audio/kuning.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
   </footer>
-
-  <!-- Musik dengan kontrol manual -->
-  <div class="music-player">
-    <p>Background Music:</p>
-    <audio controls loop>
-      <source src="audio/kuning.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
 </body>
 </html>
