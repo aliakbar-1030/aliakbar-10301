@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ali Akbar Gallery</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <section class="welcome-page">
+    <div class="overlay">
+      <h1 class="dramatic-text">Welcome to My World</h1>
+      <h2 class="main-title">Ali Akbar Gallery</h2>
+      <div class="input-box">
+        <input type="text" placeholder="Your Name" id="nameInput" />
+        <input type="text" placeholder="What are you looking for?" id="needInput" />
+        <button onclick="goToMain()">Enter</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="main-menu hidden">
+    <div class="header-3d">HALERIN</div>
+    <div class="gallery">
+      <div class="image-card"><img src="assets/ss1.jpg" alt="Screenshot 1" /></div>
+      <div class="image-card"><img src="assets/ss2.jpg" alt="Screenshot 2" /></div>
+      <div class="image-card"><img src="assets/ss3.jpg" alt="Screenshot 3" /></div>
+    </div>
+    <footer class="footer">
+      <p>Made with heart by Ali Akbar</p>
+    </footer>
+  </section>
+
+  <audio autoplay loop>
+    <source src="assets/kuning.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
